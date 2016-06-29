@@ -1,6 +1,6 @@
 Package.describe({
   name: 'aessig:smooch',
-  version: '0.0.2',
+  version: '0.0.5',
 
   // Brief, one-line summary of the package.
   summary: 'Latest version Smooch loaded via CDN',
@@ -15,5 +15,6 @@ Package.describe({
 
 Package.onUse(function (api) {
   api.versionsFrom('1.3.4.1');
+
   api.addFiles('load.js', 'client');
 });
